@@ -1,0 +1,120 @@
+.register-bg {
+    background: url("/src/assets/bg_Login_Register.png");
+    border-radius: 12px;
+    min-width: 440px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    overflow: hidden;
+}
+
+.register-bg .header-register {
+    margin: 30px 0px;
+    font-size: 24px;
+}
+
+.register-bg .form-register {
+    margin: 12px 0px;
+}
+
+.register-bg .input-group input {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #ccc;
+    background: none;
+    padding-left: 4px;
+    line-height: 24px;
+}
+
+.register-bg .input-group input::placeholder {
+    color: rgb(8, 8, 8);
+}
+
+
+.register-bg .btn-register {
+    width: 100%;
+    border-radius: 12px;
+    padding: 7px 0;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #290042;
+}
+
+.register-bg .btn-register:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.register-bg .checkbox-group {
+    font-size: 10px;
+    margin-top: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.register-bg .checkbox-group .question {
+    display: flex;
+    gap: 4px;
+    font-size: 12px;
+    color: rgb(8, 8, 8);
+}
+
+.register-bg .register-group {
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+    padding-top: 4px;
+    padding-bottom: 32px;
+}
+
+.register-bg .register-group .register-login {
+    text-decoration: none;
+    font-weight: bold;
+    color: #290042;
+}
+
+.register-bg .register-group .register-login:hover {
+    opacity: 0.6;
+}
+
+.icons-close {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    width: 24px;
+    height: 24px;
+    background: rgb(153, 68, 153);
+    border-radius: 4px;
+    padding: 4px;
+    cursor: pointer;
+}
+
+.icons-close :hover {
+    opacity: 0.6;
+}
+
+form {
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.input-group {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.input-group .icons {
+    position: absolute;
+    top: 0;
+    right: 0;
+}

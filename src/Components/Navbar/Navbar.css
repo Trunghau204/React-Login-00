@@ -1,0 +1,49 @@
+#nav-bar {
+    padding: 24px 3%;
+    cursor: pointer;
+}
+
+#nav-bar .nav-bar-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nav-bar .nav-bar-items a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.nav-bar-items>a {
+    font-weight: bold;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    align-items: center;
+}
+
+ul .btn-login {
+    margin-left: 18px;
+    padding: 4px 20px;
+    border-radius: 6px;
+    border: 3px solid white;
+    font-size: 16px;
+    font-weight: bold;
+    color: White;
+    background: transparent;
+    cursor: pointer;
+}
+
+ul .btn-login:hover {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+
+}
